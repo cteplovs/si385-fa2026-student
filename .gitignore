@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.marimo.toml
+.DS_Store
+
+# Large data — fetched via scripts/fetch_data.py
+data/*.dat
+.gstack/
+
+# Generated PDFs — regenerate with scripts/make_pdfs.py
+docs/pdf/
+docs/*.pdf
