@@ -373,9 +373,11 @@ def _(mo):
        actually do it.
     2. **Read the syllabus**, all of it.  Start with the at-a-glance summary if that is
        easier; both are on Canvas.
-    3. **Set up your environment**, following `docs/setup.md`.  You install one tool
-       called `uv` and it brings the right version of Python along with it, so please do
-       not go to python.org.  If it fights you, stop after fifteen minutes.  Wednesday
+    3. **Set up your environment**, following the setup guide on Canvas.  That guide
+       is where the download link for the course materials lives, so start there
+       rather than hunting for the repository yourself.  You install one tool called
+       `uv` and it brings the right version of Python along with it, so please do not
+       go to python.org.  If it fights you, stop after fifteen minutes.  Wednesday
        handles setup, and molab runs this entire course in a browser tab with nothing
        installed at all.
     4. **Skim** the marimo *Getting Started* page.  It is short.

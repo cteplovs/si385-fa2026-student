@@ -135,16 +135,16 @@ def _(mo):
     ---
     ## Stage 1 — Install and launch
 
-    The full instructions are in `docs/setup.md`, which you should already have worked
-    through. The short version:
+    The full instructions are in the setup guide on Canvas, which you should already
+    have worked through. The short version:
 
     ```bash
     uv run marimo edit notebooks/lectures/L02_marimo_tooling.py
     ```
 
     `uv` installs the right Python and the packages this course needs. You do not install
-    Python yourself. If you have not installed `uv` yet, `docs/setup.md` step 1 is a
-    single line for your platform.
+    Python yourself. If you have not installed `uv` yet, step 1 of the setup guide is
+    a single line for your platform.
 
     You should see this notebook open in a browser tab. If you are reading this in marimo,
     stage 1 is done.
