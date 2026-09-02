@@ -29,8 +29,12 @@ ARCHIVE = ("https://github.com/cteplovs/si385-fa2026-student"
 COURSE_DIRS = ("notebooks/", "data/", "docs/")
 COURSE_FILES = ("README.md", "pyproject.toml", "uv.lock", "update.py")
 
-MANIFEST = Path(".si385-delivered.json")
-HERE = Path.cwd()
+# The course folder is wherever this script lives, because it ships at the top of
+# the course folder. Anchoring to it rather than to the working directory means the
+# command works from anywhere: inside the folder, from its parent, or from a
+# subdirectory, with git or with the ZIP.
+HERE = Path(__file__).resolve().parent
+MANIFEST = HERE / ".si385-delivered.json"
 
 
 def digest(data: bytes) -> str:
@@ -64,8 +68,11 @@ def fetch() -> dict[str, bytes]:
 
 def main() -> int:
     if not (HERE / "pyproject.toml").exists() or not (HERE / "notebooks").is_dir():
-        sys.exit("This does not look like the course folder.\n"
-                 "Move into the folder that contains 'notebooks' and try again.")
+        sys.exit(f"update.py is sitting in {HERE}, which is not the course folder.\n"
+                 f"It belongs next to the 'notebooks' and 'data' folders. Move it there\n"
+                 f"and run it again.")
+
+    print(f"Updating {HERE}")
 
     delivered = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
     incoming = fetch()
