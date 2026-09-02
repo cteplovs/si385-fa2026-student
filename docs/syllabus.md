@@ -4,8 +4,8 @@
 **When:** Mondays & Wednesdays, 08:30–09:50  
 **Where:** 1400 CHEM  
 **Instructor:** Chris Teplovs <cteplovs@umich.edu>  Office hours Mondays & Wednesdays 10-noon, Collegian Building (333 Maynard) Room 522.  
-**GSIs:** Shan Randhawa <shanmr@umich.edu> Office hours TBD  
-Zach Mays <zmays@umich.edu> Office hours TBD
+**GSIs:** Shan Randhawa <shanmr@umich.edu> Office hours Thursday 2PM-3PM  
+Zach Mays <zmays@umich.edu> Office hours Sunday 7PM-8PM
 
 *Some syllabus details may be subject to change. Version 2026.08.29.1*
 

@@ -724,10 +724,10 @@ def _(mo):
        Friday.  It gives you the dataset and the question and deliberately does not give
        you the options.
     3. **If your environment is still broken, deal with it this week rather than next.**
-       Ask on Slack, or commit to molab and stop fighting the install.  There are no
-       office hours between now and Wednesday the 9th that would reach you in time, and
-       Slack reaches all three of us.  Session 3 has an application exercise and your team
-       will submit an answer from a notebook.
+       Ask on Slack, or commit to molab and stop fighting the install.  Slack reaches
+       all three of us, and there are GSI office hours before we meet again, with Shan on
+       Thursdays from 2 to 3 and Zach on Sundays from 7 to 8.  Session 3 has an
+       application exercise and your team will submit an answer from a notebook.
     4. **Please sit with your team on Wednesday September 9.**
 
     One last thing about today:  You spent twenty minutes on a chart of

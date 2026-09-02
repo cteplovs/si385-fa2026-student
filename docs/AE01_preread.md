@@ -154,8 +154,9 @@ salaries[salaries["salary_in_usd"] >= 250_000].sort_values("salary_in_usd")
 ```
 
 If any of that does not run for you, please ask on Slack rather than losing an evening to
-it.  Slack reaches all three of us and it is much faster than waiting for office hours,
-and there are none scheduled between now and Wednesday that would reach you in time.
+it.  Slack reaches all three of us and it is usually the fastest route.  There are also
+GSI office hours before we next meet, with Shan on Thursdays from 2 to 3 and Zach on
+Sundays from 7 to 8.
 
 ## What happens on Wednesday
 
