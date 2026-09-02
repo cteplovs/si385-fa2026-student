@@ -1,3 +1,29 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "marimo==0.24.0",
+#     "numpy==2.4.6",
+#     "matplotlib==3.11.1",
+# ]
+# ///
+#
+# Dependencies are declared here as well as in pyproject.toml, so this file also
+# runs on its own, outside the course folder:
+#
+#     uvx marimo edit --sandbox <this file>
+#
+# `uv run marimo edit --no-sandbox <this file>` from inside the course folder
+# remains the documented way to work. The --no-sandbox flag matters: marimo sees
+# this header and, in an interactive terminal, stops to ask whether to build an
+# isolated environment from it, which is not a question to put to 140 students on
+# lecture-hall wifi. The flag answers it in advance. The sandbox line above is the
+# fallback for a file that has been moved, renamed, or opened months later.
+#
+# Versions are pinned EXACTLY to uv.lock on purpose: marimo rewrites loose
+# specifiers in place on the first sandbox run, and exact pins make that a no-op
+# so the file does not mutate under whoever opens it first. If you change
+# pyproject.toml, re-pin these to match.
+
 import marimo
 
 __generated_with = "0.23.16"
@@ -139,7 +165,7 @@ def _(mo):
     have worked through. The short version:
 
     ```bash
-    uv run marimo edit notebooks/lectures/L02_marimo_tooling.py
+    uv run marimo edit --no-sandbox notebooks/lectures/L02_marimo_tooling.py
     ```
 
     `uv` installs the right Python and the packages this course needs. You do not install

@@ -1,0 +1,109 @@
+response_id,submitted_at,response
+r001,2026-08-31T08:17:19,methods
+r002,2026-08-31T08:20:25,Cleaning
+r003,2026-08-31T08:20:40,Fun
+r004,2026-08-31T08:21:10,finding
+r005,2026-08-31T08:21:30,analyzing
+r006,2026-08-31T08:22:38,Data
+r007,2026-08-31T08:23:18,drawing Inisghts
+r008,2026-08-31T08:24:43,Insight
+r009,2026-08-31T08:24:57,Understanding 
+r010,2026-08-31T08:25:09,Limitless
+r011,2026-08-31T08:25:19,Discovering
+r012,2026-08-31T08:25:53,Organized 
+r013,2026-08-31T08:26:00,Nuance
+r014,2026-08-31T08:26:29,"reviewing rows , columns, errors"
+r015,2026-08-31T08:26:34,iterating thru all the cells to come up with some insight on the dataset
+r016,2026-08-31T08:26:36,graphing
+r017,2026-08-31T08:26:49,analysis
+r018,2026-08-31T08:26:54,"Sorting, cleaning, analyzing"
+r019,2026-08-31T08:27:04,testing
+r020,2026-08-31T08:27:11,Goals
+r021,2026-08-31T08:27:21,Cleaning the data
+r022,2026-08-31T08:27:24,Learning
+r023,2026-08-31T08:27:25,manipulation 
+r024,2026-08-31T08:27:30,understanding the schema
+r025,2026-08-31T08:27:36,Curiosity
+r026,2026-08-31T08:27:38,Learning
+r027,2026-08-31T08:27:39,Analysis
+r028,2026-08-31T08:27:58,Analysis
+r029,2026-08-31T08:27:59,surprises 
+r030,2026-08-31T08:28:02,Testing and understanding a datasets properties
+r031,2026-08-31T08:28:07,Exciting
+r032,2026-08-31T08:28:24,Patterns
+r033,2026-08-31T08:28:38,Analyzing
+r034,2026-08-31T08:29:10,Strategizing 
+r035,2026-08-31T08:29:26,"Finding the ""so-what"" from the dataset to solve a problem."
+r036,2026-08-31T08:29:44,Detecting 
+r037,2026-08-31T08:29:46,Research
+r038,2026-08-31T08:29:48,contextualizing
+r039,2026-08-31T08:29:55,Exploring a dataset for me means to analyse the dataset thoroughly to understand what it is for and the information stored in it.
+r040,2026-08-31T08:30:05,analyzing
+r041,2026-08-31T08:30:25,Submarine
+r042,2026-08-31T08:30:26,analysis
+r043,2026-08-31T08:30:27,Looking to see what questions the data could answer
+r044,2026-08-31T08:30:33,Familiarization 
+r045,2026-08-31T08:30:40,Learning the dataset and getting familiar with it. 
+r046,2026-08-31T08:31:04,analyzing
+r047,2026-08-31T08:31:05,Machine Learning
+r048,2026-08-31T08:31:06,Categorizing 
+r049,2026-08-31T08:31:08,Experimentation
+r050,2026-08-31T08:31:09,analysis 
+r051,2026-08-31T08:31:10,Dissection
+r052,2026-08-31T08:31:12,uncovering
+r053,2026-08-31T08:31:15,Investigating
+r054,2026-08-31T08:31:15,Inquiring
+r055,2026-08-31T08:31:15,.info()
+r056,2026-08-31T08:31:21,visualize
+r057,2026-08-31T08:31:24,Analyzing
+r058,2026-08-31T08:31:25,Testing 
+r059,2026-08-31T08:31:25,Analysis
+r060,2026-08-31T08:31:29,interesting
+r061,2026-08-31T08:31:35,Hands-on
+r062,2026-08-31T08:31:36,Comprehension
+r063,2026-08-31T08:31:36,.info()
+r064,2026-08-31T08:31:37,analyzing 
+r065,2026-08-31T08:31:39,Contextualizing
+r066,2026-08-31T08:31:40,Understanding
+r067,2026-08-31T08:31:42,finding relationships between columns
+r068,2026-08-31T08:31:44,Interpreting
+r069,2026-08-31T08:31:49,analysis
+r070,2026-08-31T08:31:51,Testing
+r071,2026-08-31T08:31:55,discovering
+r072,2026-08-31T08:31:59,Learning
+r073,2026-08-31T08:32:01,Strategizing
+r074,2026-08-31T08:32:10,finding insights
+r075,2026-08-31T08:32:12,find useful information out of the dataset
+r076,2026-08-31T08:32:15,Understanding
+r077,2026-08-31T08:32:21,"Head, tail, creating visualizations, finding any Nan values"
+r078,2026-08-31T08:32:22,Manipulating different parts to derive insights
+r079,2026-08-31T08:32:25,descriptive statistics
+r080,2026-08-31T08:32:36,metadata
+r081,2026-08-31T08:32:38,Analyzing
+r082,2026-08-31T08:32:43,Familiarity
+r083,2026-08-31T08:32:45,Insightful
+r084,2026-08-31T08:32:52,Understanding
+r085,2026-08-31T08:32:52,Looking for any relationships/trends
+r086,2026-08-31T08:33:01,Giving data meaning 
+r087,2026-08-31T08:33:02,Understanding
+r088,2026-08-31T08:33:03,visualizations 
+r089,2026-08-31T08:33:07,Discovering
+r090,2026-08-31T08:33:11,Understanding
+r091,2026-08-31T08:33:14,Analyzing
+r092,2026-08-31T08:33:14,Intelligence
+r093,2026-08-31T08:33:23,unique quantitative findings
+r094,2026-08-31T08:33:27,finding commonalities 
+r095,2026-08-31T08:33:39,seeing what is happening
+r096,2026-08-31T08:33:56,Exploring a dataset to me means learning all the values and what stories to tell with it.
+r097,2026-08-31T08:33:58,research
+r098,2026-08-31T08:33:58,exploring the similarities and differences 
+r099,2026-08-31T08:34:15,Discovery
+r100,2026-08-31T08:34:16,"Looking at the data at the frist time, trying to see some insights out of it. "
+r101,2026-08-31T08:34:26,"Being able to find evidence for ""why"" numbers are a certain way. "
+r102,2026-08-31T08:34:27,understanding
+r103,2026-08-31T08:35:00,investigating
+r104,2026-08-31T08:35:27,playing with the data and trying to get a better understanding of it
+r105,2026-08-31T08:35:49,Counting
+r106,2026-08-31T08:36:20,inquiring 
+r107,2026-08-31T08:36:22,analyzing
+r108,2026-08-31T08:36:29,Contextualizing

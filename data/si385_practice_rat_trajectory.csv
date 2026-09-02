@@ -1,0 +1,16 @@
+snapshot,captured,item,answered,correct,correct_ratio,top_n,middle_n,bottom_n,correct_top,correct_middle,correct_bottom
+1,2026-09-01,Q1 what makes a cell re-run,37,31,0.838,16,14,7,16,12,3
+1,2026-09-01,Q2 why one variable per cell,37,24,0.649,16,14,7,16,7,1
+1,2026-09-01,Q3 delete the defining cell,37,27,0.73,16,14,7,16,6,5
+1,2026-09-01,Q4 why quantity of questions,36,29,0.806,16,14,6,16,12,1
+1,2026-09-01,Q5 two questions worth asking,34,30,0.882,16,14,4,16,13,1
+2,2026-09-01,Q1 what makes a cell re-run,58,46,0.793,18,29,11,18,23,5
+2,2026-09-01,Q2 why one variable per cell,58,31,0.534,18,29,11,18,11,2
+2,2026-09-01,Q3 delete the defining cell,58,45,0.776,18,29,11,18,20,7
+2,2026-09-01,Q4 why quantity of questions,56,44,0.786,18,28,10,18,24,2
+2,2026-09-01,Q5 two questions worth asking,54,46,0.852,18,28,8,18,26,2
+3,2026-09-01,Q1 what makes a cell re-run,115,93,0.809,47,48,20,47,38,8
+3,2026-09-01,Q2 why one variable per cell,115,67,0.583,47,48,20,47,18,2
+3,2026-09-01,Q3 delete the defining cell,115,89,0.774,47,48,20,47,31,11
+3,2026-09-01,Q4 why quantity of questions,113,94,0.832,47,47,19,47,42,5
+3,2026-09-01,Q5 two questions worth asking,111,95,0.856,47,47,17,47,43,5

@@ -9,4 +9,14 @@ dependencies = [
     "numpy",
     "matplotlib",
     "seaborn",
+    # Parquet. Students read AE 1's data with pd.read_parquet, which needs an engine.
+    "pyarrow",
 ]
+
+# marimo ships auto_instantiate = false, which opens a notebook with nothing run.
+# These notebooks keep almost all of their teaching text inside mo.md() calls and a
+# marimo .py file stores no outputs, so without this a student opens L01 and sees a
+# wall of source with no prose, no tables and no charts until they find the run
+# button. Reactivity is unaffected either way; this is only about the first paint.
+[tool.marimo.runtime]
+auto_instantiate = true

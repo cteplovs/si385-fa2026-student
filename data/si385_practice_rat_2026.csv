@@ -1,0 +1,6 @@
+item,answered,correct,correct_ratio,top_n,middle_n,bottom_n,correct_top,correct_middle,correct_bottom
+Q1 what makes a cell re-run,115,93,0.809,47,48,20,47,38,8
+Q2 why one variable per cell,115,67,0.583,47,48,20,47,18,2
+Q3 delete the defining cell,115,89,0.774,47,48,20,47,31,11
+Q4 why quantity of questions,113,94,0.832,47,47,19,47,42,5
+Q5 two questions worth asking,111,95,0.856,47,47,17,47,43,5

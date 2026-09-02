@@ -1,3 +1,30 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "marimo==0.24.0",
+#     "pandas==3.0.5",
+#     "numpy==2.4.6",
+#     "matplotlib==3.11.1",
+# ]
+# ///
+#
+# Dependencies are declared here as well as in pyproject.toml, so this file also
+# runs on its own, outside the course folder:
+#
+#     uvx marimo edit --sandbox <this file>
+#
+# `uv run marimo edit --no-sandbox <this file>` from inside the course folder
+# remains the documented way to work. The --no-sandbox flag matters: marimo sees
+# this header and, in an interactive terminal, stops to ask whether to build an
+# isolated environment from it, which is not a question to put to 140 students on
+# lecture-hall wifi. The flag answers it in advance. The sandbox line above is the
+# fallback for a file that has been moved, renamed, or opened months later.
+#
+# Versions are pinned EXACTLY to uv.lock on purpose: marimo rewrites loose
+# specifiers in place on the first sandbox run, and exact pins make that a no-op
+# so the file does not mutate under whoever opens it first. If you change
+# pyproject.toml, re-pin these to match.
+
 import marimo
 
 __generated_with = "0.24.0"
@@ -39,7 +66,8 @@ def _(mo):
     | 1:05 | Teams and seats |
     | 1:15 | What to do before Wednesday |
 
-    No reading was due today.  That is the last time that will be true.
+    No reading was due today.  Every session after this one has one, and the schedule
+    on Canvas lists them all.
     """)
     return
 
@@ -181,9 +209,9 @@ def _(mo):
     ### What happens most days
 
     Before class, on Canvas, there is a five-question quiz on the reading.  Five
-    minutes, closed book, due at 20:59 the night before.  That is the deal: you prepare
-    on your own time, and in exchange we spend the eighty minutes on the part that is
-    actually interesting.
+    minutes, closed book, due at 20:59 the night before.  You prepare on your own time,
+    and in exchange we spend the eighty minutes on the part that is actually
+    interesting.
 
     | Time | What |
     |---|---|
@@ -224,7 +252,7 @@ def _(mo):
     - **Very little to hand in on your own time.**  Your team submits its answer during
       the application exercise itself, in the room, and once you walk out that one is
       finished.  Outside class there is the reading quiz twice a week, three
-      Demonstrations of Understanding, and the team project.  That is the whole list.
+      Demonstrations of Understanding, and the team project, and nothing else.
     - **The reading quiz carries 27% of your grade.**  Five questions, five minutes,
       on your own, twice a week.  That is essentially the entire enforcement mechanism,
       which is precisely why there is so little else.

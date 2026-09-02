@@ -84,7 +84,7 @@ files. Materials will be added during term; re-download the ZIP when that happen
 ## Step 4 — Open a notebook
 
 ```
-uv run marimo edit notebooks/lectures/L02_marimo_tooling.py
+uv run marimo edit --no-sandbox notebooks/lectures/L02_marimo_tooling.py
 ```
 
 **The first time you run this it will take a few minutes.** It is downloading Python
@@ -122,5 +122,5 @@ Bring the failure to session 2 anyway.  We can probably fix the problem or decid
 
 ## What "done" looks like
 
-You ran `uv run marimo edit notebooks/lectures/L02_marimo_tooling.py`, a browser tab
-opened, and you can see the notebook. That is the whole bar. Nothing to submit.
+You ran `uv run marimo edit --no-sandbox notebooks/lectures/L02_marimo_tooling.py`, a browser tab
+opened, and you can see the notebook. Nothing to submit.

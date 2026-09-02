@@ -11,3 +11,7 @@ data/*.dat
 # Generated PDFs — regenerate with scripts/make_pdfs.py
 docs/pdf/
 docs/*.pdf
+__marimo__/
+
+# Written by update.py to tell your edits from stale files
+.si385-delivered.json
