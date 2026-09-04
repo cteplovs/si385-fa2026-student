@@ -15,3 +15,6 @@ __marimo__/
 
 # Written by update.py to tell your edits from stale files
 .si385-delivered.json
+
+# Accommodation letters. Protected student records, never committed.
+docs/accommodations/

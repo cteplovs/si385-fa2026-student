@@ -167,3 +167,25 @@ Sundays from 7 to 8.
 | 0:50–1:15 | Every team reveals at once, and several are asked to defend |
 
 Only the justification is graded, not the choice itself.
+
+## The other half, and where to find it
+
+The four answers are the part this document withholds, and they arrive in the room.  Two
+things carry them.
+
+**The notebook.**  It goes up on Wednesday morning rather than now, because the four
+options are the part you are meant to meet in the room.  Please run `uv run update.py` from
+inside the course folder when you arrive, which pulls
+`notebooks/lectures/L03_describing_distributions.py` into your course folder.  That is what
+we work in.  Alongside the options it carries the code you have already seen here, and a
+cutoff you can drag to watch the mean and the median move at different speeds.
+
+**The Canvas assignment**, *AE 1 — Reading a skewed distribution*.  This is where the
+answer goes, and it opens when class does.  One person submits for the whole team and the
+mark reaches everyone in the group, so please make sure you are in a group on Canvas before
+Wednesday — under People, on the Student Groups tab.  A team of four submits once; a
+student in no group has nothing to submit into.
+
+Sli.do draws the histogram the room looks at together before anyone speaks, and it is not
+graded.  The Canvas submission is the one that counts, and it closes at 0:50, the moment
+of the reveal.
