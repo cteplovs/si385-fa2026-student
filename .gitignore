@@ -18,3 +18,7 @@ __marimo__/
 
 # Accommodation letters. Protected student records, never committed.
 docs/accommodations/
+
+# Absence requests and the decisions on them. Same category: student names and
+# their reasons, never committed.
+docs/absences/
