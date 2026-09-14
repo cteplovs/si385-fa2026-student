@@ -377,7 +377,11 @@ def _(mo):
 
     ### Before September 14
 
-    - **Reading:** Tufte, excerpt (posted on Canvas)
+    - **Reading:** Healy, *Data Visualization*, chapter 1, the two sections
+      *Why Look at Data?* and *What Makes Bad Figures Bad?*, free and open at
+      <https://socviz.co/01-look-at-data.html>.  Two sections, not the whole chapter.
+      This replaces the Tufte excerpt named earlier; the library does not carry it in a
+      form I can hand you, and there is no legitimate copy online.
     - **RAT 2** opens Friday September 11 at 09:50 and closes Sunday September 13 at 20:59
     """)
     return

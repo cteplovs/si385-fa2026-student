@@ -22,3 +22,8 @@ docs/accommodations/
 # Absence requests and the decisions on them. Same category: student names and
 # their reasons, never committed.
 docs/absences/
+
+# Agent skills installed locally (marimo-pair) and personal Claude Code settings
+.agents/
+.claude/
+skills-lock.json

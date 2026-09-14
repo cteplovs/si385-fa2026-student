@@ -48,8 +48,8 @@ no RAT; the whole period is one extended team problem.
 | # | Date | Topic | Reading (before class) | RAP | Due |
 |---|---|---|---|---|---|
 | 3 | Wed Sep 09 | Describing a distribution: centre, spread, shape, and what each licenses you to say | Bruce et al. ch. 1, **through *Exploring the Data Distribution*** (§§1–6) | RAT 1 · AE 1 | --- |
-| 4 | Mon Sep 14 | Anscombe's quartet and the limits of summary statistics. Visual reasoning as evidence | Tufte (excerpt) | RAT 2 · AE 2 | --- |
-| 5 | Wed Sep 16 | Missingness, outliers, and data quality as an analytical judgement rather than a cleaning step | McKinney ch. 7 (review); Segel & Heer | RAT 3 · AE 3 | --- |
+| 4 | Mon Sep 14 | Anscombe's quartet and the limits of summary statistics. Visual reasoning as evidence | Healy ch. 1, **§§ *Why Look at Data?* and *What Makes Bad Figures Bad?***, free at <https://socviz.co/01-look-at-data.html> | RAT 2 · AE 2 | --- |
+| 5 | Wed Sep 16 | Missingness, outliers, and data quality as an analytical judgement rather than a cleaning step | van Buuren ch. 1, **§§1.1–1.3**, free at <https://stefvanbuuren.name/fimd/ch-introduction.html>; McKinney ch. 7 as review | RAT 3 · AE 3 | --- |
 | 6 | Mon Sep 21 | Multivariate exploration: conditioning, faceting, and finding structure without a model | Bruce et al. ch. 1 §*Exploring Two or More Variables* | RAT 4 · AE 4 | --- |
 | 7 | Wed Sep 23 | **Synthesis** --- full-period team exploration of an unfamiliar dataset | None | AE 5 | **DoU 1 assigned** |
 
