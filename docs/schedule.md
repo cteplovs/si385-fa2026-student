@@ -57,9 +57,9 @@ no RAT; the whole period is one extended team problem.
 
 | # | Date | Topic | Reading (before class) | RAP | Due |
 |---|---|---|---|---|---|
-| 8 | Mon Sep 28 | Sampling, uncertainty, and the exploratory/confirmatory boundary. Why the order you look matters | *Statistics is Easy* ch. 1 | RAT 5 · AE 6 | --- |
-| 9 | Wed Sep 30 | Hypothesis testing I: the t-test, and what a p-value does and does not tell you | *Statistics is Easy* ch. 3; Grus ch. 7 | RAT 6 · AE 7 | --- |
-| 10 | Mon Oct 05 | Hypothesis testing II: ANOVA, post-hoc comparisons, and the multiplicity problem | Grus ch. 7 (cont.) | RAT 7 · AE 8 | **DoU 1 due** |
+| 8 | Mon Sep 28 | Sampling, uncertainty, and the exploratory/confirmatory boundary. Why the order you look matters | *Statistics is Easy* ch. 1, **pp. 6–8**; ch. 2, **pp. 11–15** | RAT 5 · AE 6 | --- |
+| 9 | Wed Sep 30 | Hypothesis testing I: the t-test, and what a p-value does and does not tell you | *Statistics is Easy* ch. 1, **pp. 1–6**; ch. 3, **pp. 19–25**; ch. 4 §4.2, **pp. 28–29** | RAT 6 · AE 7 | --- |
+| 10 | Mon Oct 05 | Hypothesis testing II: ANOVA, post-hoc comparisons, and the multiplicity problem | Grus ch. 7 | RAT 7 · AE 8 | **DoU 1 due** |
 | 11 | Wed Oct 07 | Categorical data: contingency tables, crosstabs, chi-square | Bruce et al. ch. 1 §*Exploring Binary and Categorical Data* | RAT 8 · AE 9 | --- |
 | 12 | Mon Oct 12 | Correlation and ordinary least squares regression | Bruce et al. ch. 1 §*Correlation*; Bruce et al. ch. 4 (simple and multiple linear regression) | RAT 9 · AE 10 | --- |
 | 13 | Wed Oct 14 | Regression diagnostics: residuals, leverage, influence, and model criticism | Géron ch. 2 (§ evaluation) | RAT 10 · AE 11 | **Project proposal** (ungraded) |
