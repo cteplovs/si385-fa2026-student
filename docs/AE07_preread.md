@@ -8,14 +8,12 @@
 
 ---
 
-This is half of an application exercise. It gives you the question, and it withholds the answer
-options, which you meet for the first time in the room. Nothing here is submitted and nothing
-here is graded.
+This is half of an application exercise: it gives you the question and withholds the answer
+options, which you meet for the first time in the room. Nothing here is submitted or graded.
 
-It is also late, because it should have been up on Monday, which makes it **context only**:
-nothing in it is needed to do well on Wednesday, and everything in it is also in the notebook
-you will open in class. If you have time tonight and are curious, it is here. If you do not,
-you are not behind.
+It also went up a day late, which makes it **context only**: nothing in it is needed to do well
+on Wednesday, and everything in it is also in the notebook you will open in class. If you have
+time tonight and are curious, it is here, and if you do not, you are not behind.
 
 ## The data
 
@@ -33,8 +31,8 @@ players with at least 500 trips and at least 50 missed first shots.
 
 ## Note this:
 
-Monday's question was about one player. Wednesday's is about all 180, one at a time. For each
-player, the analyst runs the shuffle test from Chapter 1 of Shasha and Wilson on his own trips:
+Monday's question was about one player, and Wednesday's is about all 180, one at a time. For
+each player, the analyst runs the shuffle test from Chapter 1 of Shasha and Wilson on his own trips:
 shuffle his first-shot results, recompute the gap between his second shot after a make and
 after a miss, and see how often the shuffled gap is at least as large as the real one.
 
@@ -59,13 +57,15 @@ None of this is a checklist and nobody is checking.
   part of the reading for Wednesday.
 - The analyst's sentence makes more than one claim. Ask what each part claims, and what
   evidence would test it.
-- RAT 6 asks what a test that does not pass tells you. Keep your answer in mind.
+- RAT 6 asks what a test that does not pass tells you, and your answer there bears on this
+  question.
 
 ## Wednesday asks you to write a test
 
 Your team's justification will include a test of the analyst's claim that you write yourselves,
-together with what it found. You choose which part of the claim to test. The notebook gives you
-a working shuffle test to start from, and the table of all 180 players with each one's result.
+together with what it found, and your team chooses which part of the claim to test. The notebook
+gives you a working shuffle test to start from, and the table of all 180 players with each one's
+result.
 
 It does not matter who on the team writes the code, or whether you have help writing it, as
 long as it runs against the file and produces the result you cite.
@@ -82,9 +82,8 @@ the indentation and curls the quotes, and what arrives cannot be run.
 | 0:23–0:50 | Your team argues, writes its test, converges on one option, and submits |
 | 0:50–1:15 | Every team reveals at once, and several are asked to defend |
 
-Only the justification and the code are graded, not the choice itself.
-
-The justification asks for three things: which part of the analyst's claim your test
+Only the justification and the code are graded, not the choice itself. The justification asks
+for three things: which part of the analyst's claim your test
 addresses, what your test would have shown if the analyst were right, and which part of the
 claim your test leaves unanswered.
 
