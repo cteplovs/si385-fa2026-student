@@ -462,7 +462,8 @@ def _(mo):
 
     ### Before October 5
 
-    - **Reading:** Grus, *Data Science from Scratch*, ch. 7.
+    - **Reading:** Bruce et al., *AI-Assisted Statistics for Data Scientists*, ch. 3, §§ *Multiple
+      Testing*, *Degrees of Freedom* and *ANOVA*.
     - **RAT 7** opens Friday at 09:50 and closes Sunday at 20:59.
     - **DoU 1** is due Monday, October 5, at 23:59.
     """)
