@@ -61,8 +61,8 @@ no RAT; the whole period is one extended team problem.
 | 9 | Wed Sep 30 | Hypothesis testing I: the t-test, and what a p-value does and does not tell you | *Statistics is Easy* ch. 1, **pp. 1–6**; ch. 3, **pp. 19–25**; ch. 4 §4.2, **pp. 28–29** | RAT 6 · AE 7 | --- |
 | 10 | Mon Oct 05 | Hypothesis testing II: ANOVA, post-hoc comparisons, and the multiplicity problem | Bruce et al. ch. 3 §§*Multiple Testing*, *Degrees of Freedom* and *ANOVA* | RAT 7 · AE 8 | **DoU 1 due** |
 | 11 | Wed Oct 07 | Categorical data: contingency tables, crosstabs, chi-square | Bruce et al. ch. 3 §*Chi-Square Test* | RAT 8 · AE 9 | --- |
-| 12 | Mon Oct 12 | Correlation and ordinary least squares regression | Bruce et al. ch. 1 §*Correlation*; Bruce et al. ch. 4 (simple and multiple linear regression) | RAT 9 · AE 10 | --- |
-| 13 | Wed Oct 14 | Regression diagnostics: residuals, leverage, influence, and model criticism | Géron ch. 2 (§ evaluation) | RAT 10 · AE 11 | **Project proposal** (ungraded) |
+| 12 | Mon Oct 12 | Correlation and ordinary least squares regression | Bruce et al. ch. 1 §*Correlation*; ch. 4 §§ *Simple Linear Regression* and *Multiple Linear Regression* | RAT 9 · AE 10 | --- |
+| 13 | Wed Oct 14 | Regression diagnostics: residuals, leverage, influence, and model criticism | Bruce et al. ch. 4 §*Regression Diagnostics* | RAT 10 · AE 11 | **Project proposal** (ungraded) |
 | --- | Mon Oct 19 | *No class --- Fall Study Break* | | | |
 | 14 | Wed Oct 21 | **Synthesis** --- competing analyses of one contested dataset | None | AE 12 | **DoU 2 assigned** |
 
