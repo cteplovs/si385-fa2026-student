@@ -62,7 +62,7 @@ no RAT; the whole period is one extended team problem.
 | 10 | Mon Oct 05 | Hypothesis testing II: ANOVA, post-hoc comparisons, and the multiplicity problem | Bruce et al. ch. 3 §§*Multiple Testing*, *Degrees of Freedom* and *ANOVA* | RAT 7 · AE 8 | **DoU 1 due** |
 | 11 | Wed Oct 07 | Categorical data: contingency tables, crosstabs, chi-square | Bruce et al. ch. 3 §*Chi-Square Test* | RAT 8 · AE 9 | --- |
 | 12 | Mon Oct 12 | Correlation and ordinary least squares regression | Bruce et al. ch. 1 §*Correlation*; ch. 4 §§ *Simple Linear Regression* and *Multiple Linear Regression* | RAT 9 · AE 10 | --- |
-| 13 | Wed Oct 14 | Regression diagnostics: residuals, leverage, influence, and model criticism | Bruce et al. ch. 4 §*Regression Diagnostics* | RAT 10 · AE 11 | **Project proposal** (ungraded) |
+| 13 | Wed Oct 14 | Regression diagnostics: residuals, leverage, influence, and model criticism | Bruce et al. ch. 4 §*Regression Diagnostics* | RAT 10 · AE 11 | --- |
 | --- | Mon Oct 19 | *No class --- Fall Study Break* | | | |
 | 14 | Wed Oct 21 | **Synthesis** --- competing analyses of one contested dataset | None | AE 12 | **DoU 2 assigned** |
 
@@ -70,7 +70,7 @@ no RAT; the whole period is one extended team problem.
 
 | # | Date | Topic | Reading (before class) | RAP | Due |
 |---|---|---|---|---|---|
-| 15 | Mon Oct 26 | Framing a machine learning problem. Train/test discipline and how leakage happens | Géron ch. 1 | RAT 11 · AE 13 | --- |
+| 15 | Mon Oct 26 | Framing a machine learning problem. Train/test discipline and how leakage happens | Géron ch. 1 | RAT 11 · AE 13 | **Project proposal** (ungraded) |
 | 16 | Wed Oct 28 | Pipelines and feature engineering: making a workflow you can trust twice | Géron ch. 2 | RAT 12 · AE 14 | --- |
 | 17 | Mon Nov 02 | Dimension reduction I: principal components, and what a component means | Géron ch. 8 | RAT 13 · AE 15 | **DoU 2 due** |
 | 18 | Wed Nov 04 | Dimension reduction II: t-SNE, UMAP, and how embedding plots mislead | Géron ch. 8 (cont.) | RAT 14 · AE 16 | --- |

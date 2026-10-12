@@ -276,7 +276,7 @@ where the interesting judgement calls live.
    behind in front of the room, and the alternative you rejected; written in the same
    voice as a DoU
 
-**Proposal** (required, ungraded, due Oct 14): one page in a marimo notebook --- your
+**Proposal** (required, ungraded, due Oct 26): one page in a marimo notebook --- your
 question, your dataset, why it's interesting, and a plan for the division of labour specification that describes what each team member will contribute. A
 proposal that gets feedback is more useful than one that gets a grade, so it doesn't
 get a grade. It does get read, and it is not optional.

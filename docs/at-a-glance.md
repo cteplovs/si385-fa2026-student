@@ -57,8 +57,8 @@ final round counts.
 | | |
 |---|---|
 | **Mon Oct 5** | DoU 1 due |
-| **Tue Oct 14** | Project proposal due --- required, not graded |
 | **Wed Oct 21** | Peer evaluation 1 (midterm, formative) |
+| **Mon Oct 26** | Project proposal due --- required, not graded |
 | **Mon Nov 2** | DoU 2 due |
 | **Mon Nov 30** | DoU 3 due |
 | **Wed Dec 2** | Peer evaluation 2 --- this is the one that counts |
