@@ -1,6 +1,6 @@
 # SI 385: Data Exploration
 
-## Application exercise 11, pre-read: is Yandex crawling less?
+## Application exercise 11, pre-read: how much did the strikes take offline?
 
 *Dr. Chris Teplovs, School of Information, University of Michigan*
 
@@ -10,6 +10,8 @@
 
 This is half of an application exercise: it gives you the question and withholds the answer
 options, which you see for the first time in the room, and nothing here is submitted or graded.
+
+*Revised Tuesday October 13. The data are unchanged; the scenario and the question are new.*
 
 ## Data
 
@@ -39,18 +41,21 @@ Cloudflare does not publish request counts, so both columns are indexes rather t
 busiest day for automated traffic is set to 1, and every other value in both columns is a
 fraction of that day, so a `bot_index` of 0.5 means half as many automated requests as the
 busiest day. Because the two columns share a scale, you can compare them directly: human traffic
-from this network is about 1% of its automated traffic.
+from this network is about 1% of its automated traffic, so `bot_index` is in effect a measure of
+the network's traffic as a whole.
 
 Cloudflare Radar's annotation for this period notes that Yandex shut down its data centre in Sasovo,
-Ryazan, after a drone strike started a fire there, beginning late on October 7 (UTC).
+Ryazan, after a drone strike started a fire there, beginning late on October 7 (UTC). News reports
+describe further strikes on Yandex data centres in the Kaluga and Vladimir regions over the
+following days.
 
 ## Scenario and question
 
-You work on capacity planning at a company that hosts websites, and Yandex's crawler is one of
-the heaviest automated visitors to your customers' sites. Your manager is setting next quarter's
-budget and has asked your team the following question.
+News reports this week said that traffic from Yandex's network fell to less than one percent of
+its peak after the strikes. A journalist writing a follow-up wants a figure that a reader can
+trust, and has asked your team the following question.
 
-> **Is Yandex's crawling declining, or not?**
+> **Over October 8 to 11, what share of Yandex's normal traffic did the strikes take offline?**
 
 On Wednesday your team will choose one answer from a small fixed set, write a short
 justification, and reveal at the same moment as every other team.
@@ -63,8 +68,8 @@ If you have time before Wednesday, the following will help.
   notebook's worked example fits a regression of the kind Monday's reading describes, and the
   diagnostics section is about how far to trust it.
 - Plot `bot_index` against `date` and look at the whole series before fitting anything.
-- Consider what a trend fitted to twelve weeks of this series can tell your manager about next
-  quarter, and what it cannot.
+- Consider what "normal" traffic would have been on those four days, and how you would estimate
+  it from the rest of the file.
 
 ## Schedule for Wednesday
 
@@ -75,14 +80,14 @@ If you have time before Wednesday, the following will help.
 | 0:50–1:15 | Every team reveals at once, and several are asked to defend |
 
 Your team submits a piece of code with its justification, and the two are graded together. The
-code fits a regression and reports a confidence interval, and the notebook gives you a worked
-example to start from.
+code fits a regression and reports the baseline it predicts, with a prediction interval, and the
+notebook gives you a worked example to start from.
 
 ## Notebook and submission
 
 **The notebook** goes up before class, so run `uv run update.py` from inside the course
 folder when you arrive; it pulls the notebook and the data into your course folder.
 
-**The Canvas assignment**, *AE 11: Is Yandex crawling less?*, opens when class does, and one
+**The Canvas assignment**, *AE 11: How much did the strikes take offline?*, opens when class does, and one
 person submits for the whole team and the mark reaches everyone. Only the Canvas submission is
 graded; Sli.do draws the histogram the room looks at before anyone speaks.
