@@ -64,7 +64,7 @@ no RAT; the whole period is one extended team problem.
 | 12 | Mon Oct 12 | Correlation and ordinary least squares regression | Bruce et al. ch. 1 §*Correlation*; ch. 4 §§ *Simple Linear Regression* and *Multiple Linear Regression* | RAT 9 · AE 10 | --- |
 | 13 | Wed Oct 14 | Regression diagnostics: residuals, leverage, influence, and model criticism | Bruce et al. ch. 4 §*Regression Diagnostics* | RAT 10 · AE 11 | --- |
 | --- | Mon Oct 19 | *No class --- Fall Study Break* | | | |
-| 14 | Wed Oct 21 | **Synthesis** --- competing analyses of one contested dataset | None | AE 12 | **DoU 2 assigned** |
+| 14 | Wed Oct 21 | **Synthesis** --- the interview loop: the rounds of a data science interview, worked as a team | None | AE 12 | **DoU 2 assigned** |
 
 ## Module 3 --- Models as instruments of exploration
 
