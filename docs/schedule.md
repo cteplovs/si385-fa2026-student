@@ -102,7 +102,7 @@ no RAT; the whole period is one extended team problem.
 - **RATs:** 20 graded (sessions 3–22, 24–25), due on Canvas the night before each;
   plus one ungraded practice due before session 2
 - **Application exercises:** 23 (AE 1–23), scored on completion only
-- **DoUs:** 3, each notebook (40) + decision memo, 400 words (80)
+- **DoUs:** 3, each notebook (30) + decision memo, 400 words (80) + revision account (10); DoU 1's notebook was worth 40, with no revision account
 - **Project proposal:** required, ungraded
 - **Peer evaluations:** 2 (after session 14, after session 25)
 

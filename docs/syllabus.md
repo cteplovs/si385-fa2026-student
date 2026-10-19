@@ -217,9 +217,10 @@ the general idea:
 Anyone can produce code that runs. Current AI technology is particularly good at producing code.  What we want evidence of is that *you* made the
 analytical decisions and can defend them.
 
-Each DoU has two parts:
+Each DoU has three parts. *Revised October 19: DoU 1 had the first two only, with 40 points for the
+analysis; from DoU 2 the analysis is worth 30 and the revision account below takes the other 10.*
 
-1. **The analysis** (40 pts) --- a marimo notebook answering a substantive question
+1. **The analysis** (30 pts) --- a marimo notebook answering a substantive question
    about data you haven't seen before, drawing on the previous few weeks.
 2. **A decision memo, target length 400 words** (80 pts) --- and _not_ a walkthrough of your
    code. It should consist of three blocks:
@@ -239,6 +240,11 @@ Each DoU has two parts:
    The last block is the one people get wrong by trying to look competent. Write it
    honestly, not defensively: it is the one place in this course where admitting you do
    not know something earns points rather than costing them.  It also helps you track where you struggle, when breakthroughs happen, and data on which to reflect.
+3. **A revision account, about 100 words** (10 pts) --- attach the first draft of your memo and
+   say what you changed and why. If you used AI to draft the memo, the first draft is the AI's;
+   if you did not, it is your own, and both are marked the same way. Changes that matter earn the
+   points: a number corrected to what your notebook produces, an alternative restated fairly, a
+   claim you could not defend cut. This part does not count towards the 450 words.
 
 The word cap is deliberate and it is the part people underestimate. Picking which
 decision matters most, and cutting everything else, is itself the skill being assessed.

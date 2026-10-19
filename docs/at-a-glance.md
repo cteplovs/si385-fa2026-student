@@ -42,9 +42,10 @@ justification**, and **who was there**. Six points for doing it.
 | Peer evaluation | 70 | 2 × 35, for completing it |
 | **Total** | **1000** | |
 
-**Each DoU** is a marimo notebook (40) plus a **400-word decision memo** (80): the
+**Each DoU** is a marimo notebook (30) plus a **400-word decision memo** (80): the
 decision you'd defend, the alternative you rejected, and what you're still unsure about.
-Cite the cells and quote the numbers. Over 450 words is returned ungraded.
+Cite the cells and quote the numbers. Over 450 words is returned ungraded. From DoU 2, a
+**revision account** (10) shows your first draft and what you changed; DoU 1's notebook was worth 40.
 
 **Peer evaluation:** you give 30 points across your three teammates and may not split
 them evenly. What you *receive* adjusts your share of the project points, and only the
