@@ -16,21 +16,17 @@ and there is nothing to prepare over the break.
 
 Session 14 is the synthesis session for Module 2, so it has no reading and no RAT. It is
 modelled on the Python rounds of real data science interviews, which are less often coding
-puzzles than you might expect and more often statistical reasoning with code: rebuilding a
-statistical idea as a function, reading code someone else wrote, or investigating a question
-about a dataset with whatever tools you like, including an agent. The period runs as a short
-sequence of those rounds, worked as a team.
+puzzles than you might expect and more often statistical reasoning: rebuilding a statistical
+idea from scratch, reading code someone else wrote, or talking through what a dataset can and
+cannot tell you.
 
-## Data
+Your team and the team in the row behind you interview each other, out loud, with laptops
+closed. In each round one team asks the questions from a printed card and the other team
+answers, and then you swap. The interviewers grade the logic before the syntax, as real ones
+do, and the questions all come from Module 2.
 
-The data are the data science salaries file you used in application exercises 1 and 4, which
-is already in your course folder:
+## What to bring
 
-```python
-import pandas as pd
-
-salaries = pd.read_parquet("data/ds_salaries.parquet")
-```
-
-If you would like to do something before Wednesday, please look again at the columns in the
-AE 1 pre-read. Please also run `uv run update.py` before class, as usual.
+Please bring a pen. Your team fills in one sheet during the session and hands it in at the end,
+so there is nothing to submit on Canvas. Your laptop can stay in your bag until DoU 2 is
+assigned at the end of the period.
