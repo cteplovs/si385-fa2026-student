@@ -23,6 +23,9 @@ docs/accommodations/
 # their reasons, never committed.
 docs/absences/
 
+# Scanned student work, scores and per-team diagnostics. Student records, never committed.
+docs/grading/
+
 # Agent skills installed locally (marimo-pair) and personal Claude Code settings
 .agents/
 .claude/

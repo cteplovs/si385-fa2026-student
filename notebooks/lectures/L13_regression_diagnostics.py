@@ -15,6 +15,31 @@ __generated_with = "0.25.0"
 app = marimo.App(width="medium")
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    # SI 385: Data Exploration
+
+    ## Session 13: Regression diagnostics
+
+    ### Dr. Chris Teplovs, School of Information, University of Michigan
+
+    Wednesday, October 14, 2026
+
+    **Reading due today:** Bruce et al., *AI-Assisted Statistics for Data Scientists*, ch. 4,
+    § *Regression Diagnostics*
+
+    ---
+
+    ### Today you will be able to
+
+    - Tell an outlier from an influential observation, and read Cook's distance and the hat-value
+    - Say what a rule of thumb for influence can and cannot decide
+    - Choose a baseline for a prediction and say why it represents normal
+    """)
+    return
+
+
 @app.cell
 def _():
     import marimo as mo
@@ -48,31 +73,6 @@ def _():
             return pd.read_csv(BytesIO(_response.read()))
 
     return course_csv, mo, pd, plt, smf
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""
-    # SI 385: Data Exploration
-
-    ## Session 13: Regression diagnostics
-
-    ### Dr. Chris Teplovs, School of Information, University of Michigan
-
-    Wednesday, October 14, 2026
-
-    **Reading due today:** Bruce et al., *AI-Assisted Statistics for Data Scientists*, ch. 4,
-    § *Regression Diagnostics*
-
-    ---
-
-    ### Today you will be able to
-
-    - Tell an outlier from an influential observation, and read Cook's distance and the hat-value
-    - Say what a rule of thumb for influence can and cannot decide
-    - Choose a baseline for a prediction and say why it represents normal
-    """)
-    return
 
 
 @app.cell(hide_code=True)

@@ -13,6 +13,31 @@ __generated_with = "0.25.0"
 app = marimo.App(width="medium")
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    # SI 385: Data Exploration
+
+    ## Session 10: Hypothesis testing II, ANOVA and the multiplicity problem
+
+    ### Dr. Chris Teplovs, School of Information, University of Michigan
+
+    Monday, October 5, 2026
+
+    **Reading due today:** Bruce et al., *AI-Assisted Statistics for Data Scientists*, ch. 3,
+    §§ *Multiple Testing*, *Degrees of Freedom* and *ANOVA*
+
+    ---
+
+    ### Today you will be able to
+
+    - Say what a single overall test asks, and what it cannot tell you about which group differs
+    - Say why the group that comes out on top is likely to be overrated
+    - Tell a real difference among groups from one that chance would produce
+    """)
+    return
+
+
 @app.cell
 def _():
     import marimo as mo
@@ -44,31 +69,6 @@ def _():
             return pd.read_csv(BytesIO(_response.read()))
 
     return course_csv, mo, np, pd
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""
-    # SI 385: Data Exploration
-
-    ## Session 10: Hypothesis testing II, ANOVA and the multiplicity problem
-
-    ### Dr. Chris Teplovs, School of Information, University of Michigan
-
-    Monday, October 5, 2026
-
-    **Reading due today:** Bruce et al., *AI-Assisted Statistics for Data Scientists*, ch. 3,
-    §§ *Multiple Testing*, *Degrees of Freedom* and *ANOVA*
-
-    ---
-
-    ### Today you will be able to
-
-    - Say what a single overall test asks, and what it cannot tell you about which group differs
-    - Say why the group that comes out on top is likely to be overrated
-    - Tell a real difference among groups from one that chance would produce
-    """)
-    return
 
 
 @app.cell(hide_code=True)

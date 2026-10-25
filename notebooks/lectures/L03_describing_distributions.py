@@ -4,6 +4,33 @@ __generated_with = "0.23.16"
 app = marimo.App(width="medium")
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    # SI 385 — Data Exploration
+
+    ## Session 3: describing a distribution, and what that licenses you to say
+
+    ### Dr. Chris Teplovs, School of Information, University of Michigan
+
+    Wednesday, September 9, 2026
+
+    **Reading due today:** Bruce et al. ch. 1, through *Exploring the Data Distribution*
+    (§§1–6)
+
+    ---
+
+    ### Today you will be able to
+
+    - Say what the mean, the median and a trimmed mean each license you to claim about
+      this distribution, and what none of the three will support
+    - Separate a question this dataset can settle from one it cannot, and name the column
+      it would need to carry before the second kind became the first
+    - Defend a reading of the upper tail to a team that read it differently
+    """)
+    return
+
+
 @app.cell
 def _():
     import marimo as mo
@@ -35,33 +62,6 @@ def _():
             return pd.read_parquet(BytesIO(_response.read()))
 
     return course_parquet, mo, plt
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""
-    # SI 385 — Data Exploration
-
-    ## Session 3: describing a distribution, and what that licenses you to say
-
-    ### Dr. Chris Teplovs, School of Information, University of Michigan
-
-    Wednesday, September 9, 2026
-
-    **Reading due today:** Bruce et al. ch. 1, through *Exploring the Data Distribution*
-    (§§1–6)
-
-    ---
-
-    ### Today you will be able to
-
-    - Say what the mean, the median and a trimmed mean each license you to claim about
-      this distribution, and what none of the three will support
-    - Separate a question this dataset can settle from one it cannot, and name the column
-      it would need to carry before the second kind became the first
-    - Defend a reading of the upper tail to a team that read it differently
-    """)
-    return
 
 
 @app.cell(hide_code=True)

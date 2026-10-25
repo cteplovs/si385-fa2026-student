@@ -13,6 +13,31 @@ __generated_with = "0.24.2"
 app = marimo.App(width="medium")
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    # SI 385: Data Exploration
+
+    ## Session 11: Categorical data, contingency tables and the chi-square test
+
+    ### Dr. Chris Teplovs, School of Information, University of Michigan
+
+    Wednesday, October 7, 2026
+
+    **Reading due today:** Bruce et al., *AI-Assisted Statistics for Data Scientists*, ch. 3,
+    § *Chi-Square Test*
+
+    ---
+
+    ### Today you will be able to
+
+    - Read a contingency table, and say what the chi-square statistic measures in it
+    - Run the chi-square test by resampling, with groups of unequal size
+    - Say how much a result found by scanning many comparisons can be trusted
+    """)
+    return
+
+
 @app.cell
 def _():
     import marimo as mo
@@ -44,31 +69,6 @@ def _():
             return pd.read_csv(BytesIO(_response.read()))
 
     return course_csv, mo, np, pd
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""
-    # SI 385: Data Exploration
-
-    ## Session 11: Categorical data, contingency tables and the chi-square test
-
-    ### Dr. Chris Teplovs, School of Information, University of Michigan
-
-    Wednesday, October 7, 2026
-
-    **Reading due today:** Bruce et al., *AI-Assisted Statistics for Data Scientists*, ch. 3,
-    § *Chi-Square Test*
-
-    ---
-
-    ### Today you will be able to
-
-    - Read a contingency table, and say what the chi-square statistic measures in it
-    - Run the chi-square test by resampling, with groups of unequal size
-    - Say how much a result found by scanning many comparisons can be trusted
-    """)
-    return
 
 
 @app.cell(hide_code=True)

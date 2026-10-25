@@ -13,6 +13,32 @@ __generated_with = "0.24.0"
 app = marimo.App(width="medium")
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    # SI 385 — Data Exploration
+
+    ## Session 6: Conditioning, faceting, and finding structure without a model
+
+    ### Dr. Chris Teplovs, School of Information, University of Michigan
+
+    Monday, September 21, 2026
+
+    **Reading due today:** Bruce et al. ch. 1, §*Exploring Two or More Variables*
+
+    ---
+
+    ### Today you will be able to
+
+    - Condition a comparison on a third variable, and say what the grouping changed
+    - Read the cell counts beside a table of group medians, and say which cells cannot
+      carry a claim
+    - Rule on whether a difference between groups is about the groups or about who is
+      in them
+    """)
+    return
+
+
 @app.cell
 def _():
     import marimo as mo
@@ -43,32 +69,6 @@ def _():
             return pd.read_parquet(BytesIO(_response.read()))
 
     return course_parquet, mo, pd
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""
-    # SI 385 — Data Exploration
-
-    ## Session 6: Conditioning, faceting, and finding structure without a model
-
-    ### Dr. Chris Teplovs, School of Information, University of Michigan
-
-    Monday, September 21, 2026
-
-    **Reading due today:** Bruce et al. ch. 1, §*Exploring Two or More Variables*
-
-    ---
-
-    ### Today you will be able to
-
-    - Condition a comparison on a third variable, and say what the grouping changed
-    - Read the cell counts beside a table of group medians, and say which cells cannot
-      carry a claim
-    - Rule on whether a difference between groups is about the groups or about who is
-      in them
-    """)
-    return
 
 
 @app.cell(hide_code=True)

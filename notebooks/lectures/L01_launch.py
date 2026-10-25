@@ -31,13 +31,6 @@ __generated_with = "0.24.0"
 app = marimo.App(width="medium")
 
 
-@app.cell
-def _():
-    import marimo as mo
-
-    return (mo,)
-
-
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
@@ -50,6 +43,13 @@ def _(mo):
     Monday, August 31, 2026
     """)
     return
+
+
+@app.cell
+def _():
+    import marimo as mo
+
+    return (mo,)
 
 
 @app.cell(hide_code=True)

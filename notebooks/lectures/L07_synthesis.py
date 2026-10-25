@@ -14,6 +14,34 @@ __generated_with = "0.24.0"
 app = marimo.App(width="medium")
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    # SI 385 — Data Exploration
+
+    ## Session 7: Synthesis — exploring an unfamiliar dataset
+
+    ### Dr. Chris Teplovs, School of Information, University of Michigan
+
+    Wednesday, September 23, 2026
+
+    **No reading due today.** The four weeks behind you are the preparation.
+
+    ---
+
+    ### Today you will be able to
+
+    - Work an unfamiliar file through one analytical lens, and report what that lens on
+      its own is able to establish
+    - Reconcile four accounts of the same data that do not agree with one another
+    - Say what an absent value does and does not entitle you to claim about the records
+      behind it
+    - Decide what to tell somebody when the file that exists to answer their question
+      turns out not to answer it
+    """)
+    return
+
+
 @app.cell
 def _():
     import marimo as mo
@@ -45,34 +73,6 @@ def _():
             return pd.read_parquet(BytesIO(_response.read()))
 
     return course_parquet, mo, pd, plt
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""
-    # SI 385 — Data Exploration
-
-    ## Session 7: Synthesis — exploring an unfamiliar dataset
-
-    ### Dr. Chris Teplovs, School of Information, University of Michigan
-
-    Wednesday, September 23, 2026
-
-    **No reading due today.** The four weeks behind you are the preparation.
-
-    ---
-
-    ### Today you will be able to
-
-    - Work an unfamiliar file through one analytical lens, and report what that lens on
-      its own is able to establish
-    - Reconcile four accounts of the same data that do not agree with one another
-    - Say what an absent value does and does not entitle you to claim about the records
-      behind it
-    - Decide what to tell somebody when the file that exists to answer their question
-      turns out not to answer it
-    """)
-    return
 
 
 @app.cell(hide_code=True)

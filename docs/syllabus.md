@@ -298,11 +298,12 @@ Twice a term you will assess your teammates' contributions --- once at midterm, 
 at the end. You get the 35 points for completing the evaluation thoughtfully, not for
 the ratings you receive.
 
-**How you rate.** You have **30 points to distribute among your three teammates**. You
-do not rate yourself. The average is therefore 10, and here is the part that matters:
-**you may not give all three the same number.** At least one teammate must get more than
-10 and at least one must get less than 10. An evaluation that splits 10/10/10 is not a
-valid submission and earns none of the 35 points.
+**How you rate.** You have **10 points for each teammate you rate**: 30 in a team of four,
+40 in a team of five, and 20 in a team of three. You do not rate yourself. The average is
+therefore 10, and here is the part that matters: **you may not give every teammate the same
+number.** At least one teammate must get more than 10 and at least one must get less than
+10. An evaluation that gives everyone 10 is not a valid submission and earns none of the 35
+points.
 
 This is deliberate and it is uncomfortable on purpose. Rating everyone identically is
 the path of least resistance, and a peer evaluation where everyone does it carries no
@@ -321,8 +322,8 @@ are not being asked to punish anyone. You are being asked to say who did the mos
 | below 7.0 | 0.80 | −36 |
 
 Note how wide that middle band is. Ordinary differences --- someone did a bit more, someone
-a bit less --- land everybody at 1.00, which is the intended result. To fall below it, all
-three of your teammates have to say the same thing about you independently. One
+a bit less --- land everybody at 1.00, which is the intended result. To fall below it, your
+teammates have to say the same thing about you independently. One
 teammate's low opinion cannot move your grade but a consensus can.
 
 The multiplier applies to the project only, not to application exercise points. An AE is
@@ -411,8 +412,8 @@ The best-of counts exist so that missing occasionally costs you nothing. Repeate
 
 ## Late policy
 
-Three (3) free late days for DoUs, in whole 24-hour blocks, no explanation needed. We
-track them. After they are used: 25% deduction per 24-hour period.
+You have three (3) free late days in total across the DoUs, not three per DoU. They are taken in
+whole 24-hour blocks, and using one requires no explanation. We track them. After they are used: 25% deduction per 24-hour period.
 
 Late days may not be applied to the final report.
 They cannot be applied to RATs or application exercises, which do not have deadlines

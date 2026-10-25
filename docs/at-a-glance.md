@@ -47,7 +47,7 @@ decision you'd defend, the alternative you rejected, and what you're still unsur
 Cite the cells and quote the numbers. Over 450 words is returned ungraded. From DoU 2, a
 **revision account** (10) shows your first draft and what you changed; DoU 1's notebook was worth 40.
 
-**Peer evaluation:** you give 30 points across your three teammates and may not split
+**Peer evaluation:** you give 10 points for each teammate and may not split
 them evenly. What you *receive* adjusts your share of the project points, and only the
 final round counts.
 

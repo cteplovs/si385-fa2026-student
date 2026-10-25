@@ -14,6 +14,31 @@ __generated_with = "0.25.0"
 app = marimo.App(width="medium")
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    # SI 385: Data Exploration
+
+    ## Session 9: Hypothesis testing I, and what a p-value does and does not tell you
+
+    ### Dr. Chris Teplovs, School of Information, University of Michigan
+
+    Wednesday, September 30, 2026
+
+    **Reading due today:** Shasha and Wilson, *Statistics is Easy!*, ch. 1, pp. 1–6; ch. 3,
+    pp. 19–25; ch. 4 §4.2, pp. 28–29
+
+    ---
+
+    ### Today you will be able to
+
+    - Run a shuffle test and say what its p-value is the probability of
+    - Say what a test that does not pass does and does not show
+    - Test a claim somewhere other than where it was made
+    """)
+    return
+
+
 @app.cell
 def _():
     import marimo as mo
@@ -45,31 +70,6 @@ def _():
             return pd.read_parquet(BytesIO(_response.read()))
 
     return course_parquet, mo, np, pd
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""
-    # SI 385: Data Exploration
-
-    ## Session 9: Hypothesis testing I, and what a p-value does and does not tell you
-
-    ### Dr. Chris Teplovs, School of Information, University of Michigan
-
-    Wednesday, September 30, 2026
-
-    **Reading due today:** Shasha and Wilson, *Statistics is Easy!*, ch. 1, pp. 1–6; ch. 3,
-    pp. 19–25; ch. 4 §4.2, pp. 28–29
-
-    ---
-
-    ### Today you will be able to
-
-    - Run a shuffle test and say what its p-value is the probability of
-    - Say what a test that does not pass does and does not show
-    - Test a claim somewhere other than where it was made
-    """)
-    return
 
 
 @app.cell(hide_code=True)

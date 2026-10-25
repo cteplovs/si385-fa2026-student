@@ -14,6 +14,31 @@ __generated_with = "0.25.0"
 app = marimo.App(width="medium")
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    # SI 385 — Data Exploration
+
+    ## Session 8: Sampling, uncertainty, and why the order you look matters
+
+    ### Dr. Chris Teplovs, School of Information, University of Michigan
+
+    Monday, September 28, 2026
+
+    **Reading due today:** Shasha and Wilson, *Statistics is Easy!*, ch. 1, pp. 6–8, and
+    ch. 2, pp. 11–15
+
+    ---
+
+    ### Today you will be able to
+
+    - Write a bootstrap and say what its interval is an interval of
+    - Choose what to resample, and say why that is the independent unit
+    - Say what choosing a comparison after seeing the data does to its interval
+    """)
+    return
+
+
 @app.cell
 def _():
     import marimo as mo
@@ -45,31 +70,6 @@ def _():
             return pd.read_parquet(BytesIO(_response.read()))
 
     return course_parquet, mo, np, pd
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""
-    # SI 385 — Data Exploration
-
-    ## Session 8: Sampling, uncertainty, and why the order you look matters
-
-    ### Dr. Chris Teplovs, School of Information, University of Michigan
-
-    Monday, September 28, 2026
-
-    **Reading due today:** Shasha and Wilson, *Statistics is Easy!*, ch. 1, pp. 6–8, and
-    ch. 2, pp. 11–15
-
-    ---
-
-    ### Today you will be able to
-
-    - Write a bootstrap and say what its interval is an interval of
-    - Choose what to resample, and say why that is the independent unit
-    - Say what choosing a comparison after seeing the data does to its interval
-    """)
-    return
 
 
 @app.cell(hide_code=True)

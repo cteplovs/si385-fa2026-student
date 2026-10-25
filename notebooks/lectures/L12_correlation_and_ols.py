@@ -15,6 +15,31 @@ __generated_with = "0.25.0"
 app = marimo.App(width="medium")
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    # SI 385: Data Exploration
+
+    ## Session 12: Correlation and ordinary least squares regression
+
+    ### Dr. Chris Teplovs, School of Information, University of Michigan
+
+    Monday, October 12, 2026
+
+    **Reading due today:** Bruce et al., *AI-Assisted Statistics for Data Scientists*, ch. 1,
+    § *Correlation*, and ch. 4, §§ *Simple Linear Regression* and *Multiple Linear Regression*
+
+    ---
+
+    ### Today you will be able to
+
+    - Fit a regression and read its slope, the slope's confidence interval, and R²
+    - Say what changes when a second predictor is held fixed
+    - Say what a confidence interval that includes zero does and does not show
+    """)
+    return
+
+
 @app.cell
 def _():
     import marimo as mo
@@ -48,31 +73,6 @@ def _():
             return pd.read_csv(BytesIO(_response.read()))
 
     return course_csv, mo, np, plt, smf
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""
-    # SI 385: Data Exploration
-
-    ## Session 12: Correlation and ordinary least squares regression
-
-    ### Dr. Chris Teplovs, School of Information, University of Michigan
-
-    Monday, October 12, 2026
-
-    **Reading due today:** Bruce et al., *AI-Assisted Statistics for Data Scientists*, ch. 1,
-    § *Correlation*, and ch. 4, §§ *Simple Linear Regression* and *Multiple Linear Regression*
-
-    ---
-
-    ### Today you will be able to
-
-    - Fit a regression and read its slope, the slope's confidence interval, and R²
-    - Say what changes when a second predictor is held fixed
-    - Say what a confidence interval that includes zero does and does not show
-    """)
-    return
 
 
 @app.cell(hide_code=True)

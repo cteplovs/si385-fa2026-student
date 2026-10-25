@@ -12,6 +12,33 @@ __generated_with = "0.24.0"
 app = marimo.App(width="medium")
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    # SI 385 — Data Exploration
+
+    ## Session 5: Missingness, outliers, and data quality as a judgement
+
+    ### Dr. Chris Teplovs, School of Information, University of Michigan
+
+    Wednesday, September 16, 2026
+
+    **Reading due today:** van Buuren, *Flexible Imputation of Missing Data*, ch. 1,
+    §§1.1–1.3, at <https://stefvanbuuren.name/fimd/ch-introduction.html>.
+    McKinney ch. 7 as review.
+
+    ---
+
+    ### Today you will be able to
+
+    - Tell a value that is plainly wrong from a blank whose meaning is contested
+    - Say what a denominator assumes about the rows it leaves out
+    - Decide what a blank means, cite evidence from the rest of the row for that
+      reading, and name what would overturn it
+    """)
+    return
+
+
 @app.cell
 def _():
     import marimo as mo
@@ -42,33 +69,6 @@ def _():
             return pd.read_csv(BytesIO(_response.read()))
 
     return course_csv, mo, pd
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""
-    # SI 385 — Data Exploration
-
-    ## Session 5: Missingness, outliers, and data quality as a judgement
-
-    ### Dr. Chris Teplovs, School of Information, University of Michigan
-
-    Wednesday, September 16, 2026
-
-    **Reading due today:** van Buuren, *Flexible Imputation of Missing Data*, ch. 1,
-    §§1.1–1.3, at <https://stefvanbuuren.name/fimd/ch-introduction.html>.
-    McKinney ch. 7 as review.
-
-    ---
-
-    ### Today you will be able to
-
-    - Tell a value that is plainly wrong from a blank whose meaning is contested
-    - Say what a denominator assumes about the rows it leaves out
-    - Decide what a blank means, cite evidence from the rest of the row for that
-      reading, and name what would overturn it
-    """)
-    return
 
 
 @app.cell(hide_code=True)

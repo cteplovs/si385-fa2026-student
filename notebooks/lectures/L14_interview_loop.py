@@ -15,6 +15,31 @@ __generated_with = "0.25.0"
 app = marimo.App(width="medium")
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    # SI 385: Data Exploration
+
+    ## Session 14: The interview loop
+
+    ### Dr. Chris Teplovs, School of Information, University of Michigan
+
+    Wednesday, October 21, 2026
+
+    **No reading and no RAT today.** This is the synthesis session for Module 2.
+
+    ---
+
+    ### Today you will be able to
+
+    - Read a statistical function you did not write and say what it returns
+    - Write a bootstrap confidence interval without a library call
+    - Judge whether a change in a summary reflects a change in the thing measured or a change in
+      who was measured
+    """)
+    return
+
+
 @app.cell
 def _():
     import marimo as mo
@@ -47,31 +72,6 @@ def _():
             return pd.read_parquet(BytesIO(_response.read()))
 
     return course_parquet, mo, np, pd, smf
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""
-    # SI 385: Data Exploration
-
-    ## Session 14: The interview loop
-
-    ### Dr. Chris Teplovs, School of Information, University of Michigan
-
-    Wednesday, October 21, 2026
-
-    **No reading and no RAT today.** This is the synthesis session for Module 2.
-
-    ---
-
-    ### Today you will be able to
-
-    - Read a statistical function you did not write and say what it returns
-    - Write a bootstrap confidence interval without a library call
-    - Judge whether a change in a summary reflects a change in the thing measured or a change in
-      who was measured
-    """)
-    return
 
 
 @app.cell(hide_code=True)

@@ -30,6 +30,33 @@ __generated_with = "0.24.0"
 app = marimo.App(width="medium")
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    # SI 385 — Data Exploration
+
+    ## Session 2: marimo, and the first dataset
+
+    ### Dr. Chris Teplovs, School of Information, University of Michigan
+
+    Wednesday, September 2, 2026
+
+    **Reading due today:** marimo *Getting Started*; *R for Data Science* 2e §10.1–10.2
+
+    ---
+
+    ### Today you will be able to
+
+    - Explain what makes a marimo notebook different from a Jupyter notebook, and read
+      the dependency graph off the code in front of you
+    - Leave with a working environment, either a local install or molab, that you will
+      use for the rest of the term
+    - Defend a cleaning decision that changes the answer, which is the first real thing
+      this course asks of you
+    """)
+    return
+
+
 @app.cell
 def _():
     import marimo as mo
@@ -60,33 +87,6 @@ def _():
         return pd.read_csv(REMOTE + name)
 
     return Counter, course_data, mo, plt, re
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""
-    # SI 385 — Data Exploration
-
-    ## Session 2: marimo, and the first dataset
-
-    ### Dr. Chris Teplovs, School of Information, University of Michigan
-
-    Wednesday, September 2, 2026
-
-    **Reading due today:** marimo *Getting Started*; *R for Data Science* 2e §10.1–10.2
-
-    ---
-
-    ### Today you will be able to
-
-    - Explain what makes a marimo notebook different from a Jupyter notebook, and read
-      the dependency graph off the code in front of you
-    - Leave with a working environment, either a local install or molab, that you will
-      use for the rest of the term
-    - Defend a cleaning decision that changes the answer, which is the first real thing
-      this course asks of you
-    """)
-    return
 
 
 @app.cell(hide_code=True)

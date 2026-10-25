@@ -4,6 +4,35 @@ __generated_with = "0.23.16"
 app = marimo.App(width="medium")
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    # SI 385 — Data Exploration
+
+    ## Session 4: Anscombe's quartet, and the limits of summary statistics
+
+    ### Dr. Chris Teplovs, School of Information, University of Michigan
+
+    Monday, September 14, 2026
+
+    **Reading due today:** Healy, *Data Visualization*, ch. 1, the two sections
+    *Why Look at Data?* and *What Makes Bad Figures Bad?*, at
+    <https://socviz.co/01-look-at-data.html>
+
+    ---
+
+    ### Today you will be able to
+
+    - Say what a pooled summary is a summary *of*, and name the question it answers
+      instead of the one that was asked
+    - Separate the three kinds of failure Healy distinguishes (taste, data, perception)
+      and say which one a given figure is guilty of
+    - Rule on whether a true sentence is an honest description, and defend the ruling to
+      a room that disagrees
+    """)
+    return
+
+
 @app.cell
 def _():
     import marimo as mo
@@ -35,35 +64,6 @@ def _():
             return pd.read_parquet(BytesIO(_response.read()))
 
     return course_parquet, mo, pd, plt
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""
-    # SI 385 — Data Exploration
-
-    ## Session 4: Anscombe's quartet, and the limits of summary statistics
-
-    ### Dr. Chris Teplovs, School of Information, University of Michigan
-
-    Monday, September 14, 2026
-
-    **Reading due today:** Healy, *Data Visualization*, ch. 1, the two sections
-    *Why Look at Data?* and *What Makes Bad Figures Bad?*, at
-    <https://socviz.co/01-look-at-data.html>
-
-    ---
-
-    ### Today you will be able to
-
-    - Say what a pooled summary is a summary *of*, and name the question it answers
-      instead of the one that was asked
-    - Separate the three kinds of failure Healy distinguishes (taste, data, perception)
-      and say which one a given figure is guilty of
-    - Rule on whether a true sentence is an honest description, and defend the ruling to
-      a room that disagrees
-    """)
-    return
 
 
 @app.cell(hide_code=True)

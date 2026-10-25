@@ -12,6 +12,7 @@ dependencies = [
     # Parquet. Students read AE 1's data with pd.read_parquet, which needs an engine.
     "pyarrow",
     "statsmodels>=0.15.0",
+    "scikit-learn>=1.9.1",
 ]
 
 # marimo ships auto_instantiate = false, which opens a notebook with nothing run.
