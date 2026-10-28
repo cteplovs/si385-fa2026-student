@@ -33,7 +33,7 @@ regression, and then give you a scaffold for your own answer.
 Your team may work on the question together in class, and each of you should start from different
 columns from your teammates and then compare what you find. Each of you should then write your own
 answer in Step 4 of the notebook and upload your copy of `L16_pipelines.py` to *AE 14* on Canvas by
-23:59 on Wednesday. The answer is worth 6 points: 4 for your explanation, and 2 for comparing your
+23:59 on Thursday. The answer is worth 6 points: 4 for your explanation, and 2 for comparing your
 results with your teammates'.
 
 ## Optional preparation

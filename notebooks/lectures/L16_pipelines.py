@@ -928,7 +928,7 @@ def todays_question(mo):
 
     You will write your answer in Step 4 at the end of this notebook, a few sentences under each prompt,
     in your own words and with the numbers from your own runs. Each of you should then upload your own
-    copy of this notebook to *AE 14* on Canvas, by 23:59 tonight.
+    copy of this notebook to *AE 14* on Canvas, by 23:59 on Thursday.
 
     | Part of your answer | Points |
     |---|---:|
@@ -997,7 +997,7 @@ def step4_intro(mo):
 
     Please write your answer in the cell under each prompt, replacing the placeholder text, in your own
     words and with the numbers from your own runs. Then save the notebook and upload your copy of
-    `L16_pipelines.py` to *AE 14* on Canvas by 23:59 tonight. We will cross-reference your claims about
+    `L16_pipelines.py` to *AE 14* on Canvas by 23:59 on Thursday. We will cross-reference your claims about
     evidence from your teammates against the work they submit.
     """)
     return
