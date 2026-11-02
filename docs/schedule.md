@@ -72,12 +72,12 @@ no RAT; the whole period is one extended team problem.
 |---|---|---|---|---|---|
 | 15 | Mon Oct 26 | Framing a machine learning problem. Train/test discipline and how leakage happens | Géron ch. 1 | RAT 11 · AE 13 | **Project proposal** (ungraded) |
 | 16 | Wed Oct 28 | Pipelines and feature engineering: making a workflow you can trust twice | Géron ch. 2 | RAT 12 · AE 14 | --- |
-| 17 | Mon Nov 02 | Dimension reduction I: principal components, and what a component means | Géron ch. 8 | RAT 13 · AE 15 | **DoU 2 due** |
-| 18 | Wed Nov 04 | Dimension reduction II: t-SNE, UMAP, and how embedding plots mislead | Géron ch. 8 (cont.) | RAT 14 · AE 16 | --- |
-| 19 | Mon Nov 09 | Clustering I: k-means, distance, and scaling | Grus ch. 19; Géron ch. 9 | RAT 15 · AE 17 | --- |
-| 20 | Wed Nov 11 | Clustering II: hierarchical and density methods. How many clusters, and does this clustering mean anything? | Géron ch. 9 (cont.) | RAT 16 · AE 18 | --- |
-| 21 | Mon Nov 16 | Classification I: logistic regression, trees, forests, and choosing a model class | Grus ch. 13; Géron ch. 3 | RAT 17 · AE 19 | --- |
-| 22 | Wed Nov 18 | Classification II: evaluation beyond accuracy --- imbalance, thresholds, and the cost of an error | Géron ch. 3 (cont.) | RAT 18 · AE 20 | **DoU 3 assigned** |
+| 17 | Mon Nov 02 | Dimension reduction I: principal components, and what a component means | Géron ch. 8 (PyTorch edition: ch. 7) | RAT 13 · AE 15 | --- |
+| 18 | Wed Nov 04 | Dimension reduction II: t-SNE, UMAP, and how embedding plots mislead | Géron, PyTorch edition, ch. 7, from *LLE* to the end | RAT 14 · AE 16 | **DoU 2 due** |
+| 19 | Mon Nov 09 | Clustering I: k-means, distance, and scaling | Grus ch. 19; Géron, PyTorch edition, ch. 8 | RAT 15 · AE 17 | --- |
+| 20 | Wed Nov 11 | Clustering II: hierarchical and density methods. How many clusters, and does this clustering mean anything? | Géron, PyTorch edition, ch. 8, cont. | RAT 16 · AE 18 | --- |
+| 21 | Mon Nov 16 | Classification I: logistic regression, trees, forests, and choosing a model class | Grus ch. 13; Géron, PyTorch edition, ch. 3 | RAT 17 · AE 19 | --- |
+| 22 | Wed Nov 18 | Classification II: evaluation beyond accuracy --- imbalance, thresholds, and the cost of an error | Géron, PyTorch edition, ch. 3, cont. | RAT 18 · AE 20 | **DoU 3 assigned** |
 | 23 | Mon Nov 23 | **Synthesis** --- model bake-off with a defended recommendation | None | AE 21 | --- |
 | --- | Wed Nov 25 | *No class --- Thanksgiving recess* | | | |
 
@@ -118,7 +118,12 @@ Available through the U-M O'Reilly portal:
 - Peter Bruce, Andrew Bruce & Peter Gedeck, *AI-Assisted Statistics for Data
   Scientists*, 3rd ed. --- cited as **Bruce et al.** Successor to *Practical Statistics
   for Data Scientists*; ch. 1 is still "Exploratory Data Analysis"
-- Aurélien Géron, *Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow*
+- Aurélien Géron, *Hands-On Machine Learning with Scikit-Learn and PyTorch*, the successor to
+  *Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow*, 3rd ed. This changed during
+  the term, on November 1. Through session 17 either edition was fine, but **from session 18
+  (RAT 14) on, please read the PyTorch edition**, because some RAT items depend on passages that
+  appear only in it. The two editions number some chapters differently, and the schedule gives
+  the PyTorch edition's numbers
 - Joel Grus, *Data Science from Scratch*, 2nd ed.
 - Jake VanderPlas, *Python Data Science Handbook*
 - Wes McKinney, *Python for Data Analysis* --- review only; SI 345 is the primary venue
