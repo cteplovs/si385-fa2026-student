@@ -109,27 +109,42 @@ Sit with your team. A sloped hall works best when four people are already adjace
    | Monday | Friday 09:50 | **Sunday 20:59** |
    | Wednesday | Monday 09:50 | **Tuesday 20:59** |
 
-   Once you start it you have **five minutes**, so read first and then open it. One
-   attempt. Closed book.
-2. **Clarification** --- the first fifteen minutes of class. I come in already knowing
-   which items the room got wrong, and we spend some time on those. Depending on the exact results, we might re-poll live on the ones that split the room: vote, argue, vote again.
+   ~~Once you start it you have **five minutes**, so read first and then open it. One
+   attempt. Closed book.~~ This is round 1, in which you have **two attempts**, each with a
+   **10-minute** limit from when you open the quiz, and we keep the higher of your two scores.
+   The quiz is closed book, so please read first and then open it. After each attempt you will
+   see your score and which questions you missed, but not the correct answers.
+   *(Changed 2026-10-30.)*
+2. ~~**Clarification** --- the first fifteen minutes of class. I come in already knowing
+   which items the room got wrong, and we spend some time on those. Depending on the exact results, we might re-poll live on the ones that split the room: vote, argue, vote again.~~
+   Round 2 takes place on Canvas in the last ten minutes of class, with one attempt and a
+   10-minute limit. Its questions are similar to those in round 1 but not identical, and they
+   draw on what we do in class as well as on the reading.
+   *(Changed 2026-10-30.)*
+
+From RAT 13 on, your score for each RAT is the best of your three attempts: the two in round 1 and the one
+in round 2. In Canvas, the score appears in a column of its own, such as "RAT 13 final
+score", and the two quiz columns stay in your grades so that you can see each attempt.
+*(Added 2026-11-03.)*
 
 There is no team version of the RAT. The reading is checked individually; the arguing
 happens in the application exercise, where it is about application rather than recall.
 
 **Why it's on Canvas.** Some of you have accommodations for extended time or for a
 distraction-reduced environment, and a 140-person lecture hall at 08:30 cannot provide
-the second one by any arrangement. Canvas can, natively and invisibly. It also means I
+the second one by any arrangement. Canvas can, natively and invisibly. ~~It also means I
 walk in already knowing what the room found hard, which is a better use of the first
-fifteen minutes than finding out live.
+fifteen minutes than finding out live.~~ *(Removed 2026-11-03.)*
 
 **If you have an accommodation letter** with items relevant to this course, please reach out to me to ensure we have everything set up correctly in Canvas.
 
-**Appeals.** If your team believes an item was ambiguous, or that the reading supports
+~~**Appeals.** If your team believes an item was ambiguous, or that the reading supports
 an answer marked wrong, you may appeal in writing before you leave the room on the day
 we discuss it, citing the reading. Appeals are a **team** action --- one per team, agreed
 by the team ---  and a successful appeal restores credit to every member of the appealing
-team. Individuals may not appeal alone.
+team. Individuals may not appeal alone.~~ If you believe a question was ambiguous, or that
+the reading supports an answer marked wrong, please reach out to me directly.
+*(Changed 2026-11-03.)*
 
 The reading is not optional and there are no videos. In summary: you prepare
 before class, and in exchange class time is spent on the interesting part instead of
@@ -196,7 +211,7 @@ A total of **1000 points**:
 Individual work is 63% of your grade, team work 30%, peer evaluation 7%. Your grade
 is mostly yours.
 
-**The iRAT is worth 15 points, which is more than it looks.** A small number of straight-forward questions twice a week.  That's 27% of the course riding on whether you did the
+**The iRAT is worth 15 points, which is more than it looks.** ~~A small number of straight-forward questions twice a week.~~ There are two RATs a week, each with five questions that ask you to apply the reading. *(Changed 2026-10-30.)* That's 27% of the course riding on whether you did the
 reading. It is the single highest-leverage habit in this class, and the two dropped
 scores below are there precisely because the stakes per session are real.
 
@@ -465,17 +480,17 @@ arriving in November unable to do the thing this degree says you can do.
 
 RATs are done on your own. I suggest that you try them closed-book and without AI help.  I also recognize that that is neither realistic nor enforceable, but we're going to run with it nonetheless.  Think of this as a request rather than a directive.
 
-Here is why I think you should honour it anyway. The five-minute limit is doing most of
-the work: at sixty seconds an item, looking something up in a reading you haven't done is
+Here is why I think you should honour it anyway. The ~~five-minute~~ ten-minute limit is doing most of
+the work: at ~~sixty seconds~~ two minutes an item *(changed 2026-10-30)*, looking something up in a reading you haven't done is
 slow, because you don't know where to look. It rescues someone who read the chapter and
 forgot a detail but it does almost nothing for someone who didn't read it.
 
-What it does reliably is tell me the room understood something it didn't. I build the
+~~What it does reliably is tell me the room understood something it didn't. I build the
 next morning's clarification out of your answers. If they are not yours, I spend fifteen
 minutes on the wrong thing and you spend thirty-five on an application exercise you
 aren't equipped for. The iRAT is diagnostic before it is a grade, and it is the only
 instrument in this course that tells me what to teach. Lying to it mostly wastes your own
-eighty minutes.
+eighty minutes.~~ *(Removed 2026-11-03.)*
 
 ---
 
