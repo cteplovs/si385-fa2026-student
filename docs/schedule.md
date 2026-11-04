@@ -74,7 +74,7 @@ no RAT; the whole period is one extended team problem.
 | 16 | Wed Oct 28 | Pipelines and feature engineering: making a workflow you can trust twice | Géron ch. 2 | RAT 12 · AE 14 | --- |
 | 17 | Mon Nov 02 | Dimension reduction I: principal components, and what a component means | Géron ch. 8 (PyTorch edition: ch. 7) | RAT 13 · AE 15 | --- |
 | 18 | Wed Nov 04 | Dimension reduction II: t-SNE, UMAP, and how embedding plots mislead | Géron, PyTorch edition, ch. 7, from *LLE* to the end | RAT 14 · AE 16 | **DoU 2 due** |
-| 19 | Mon Nov 09 | Clustering I: k-means, distance, and scaling | Grus ch. 19; Géron, PyTorch edition, ch. 8 | RAT 15 · AE 17 | --- |
+| 19 | Mon Nov 09 | Clustering I: k-means, distance, and scaling | ~~Grus ch. 19; Géron, PyTorch edition, ch. 8~~ James et al., *An Introduction to Statistical Learning with Applications in Python*, sections 12.4.1 and 12.4.3. *Changed 2026-11-04.* | RAT 15 · AE 17 | --- |
 | 20 | Wed Nov 11 | Clustering II: hierarchical and density methods. How many clusters, and does this clustering mean anything? | Géron, PyTorch edition, ch. 8, cont. | RAT 16 · AE 18 | --- |
 | 21 | Mon Nov 16 | Classification I: logistic regression, trees, forests, and choosing a model class | Grus ch. 13; Géron, PyTorch edition, ch. 3 | RAT 17 · AE 19 | --- |
 | 22 | Wed Nov 18 | Classification II: evaluation beyond accuracy --- imbalance, thresholds, and the cost of an error | Géron, PyTorch edition, ch. 3, cont. | RAT 18 · AE 20 | **DoU 3 assigned** |
