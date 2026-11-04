@@ -1,6 +1,6 @@
 # SI 385: Data Exploration
 
-## Application exercise 17, pre-read: kinds of Olympic athletes
+## Application exercise 17, pre-read: groups of penguins
 
 *Dr. Chris Teplovs, School of Information, University of Michigan*
 
@@ -9,23 +9,23 @@
 ---
 
 This pre-read gives Monday's data and question, then reviews how k-means clustering measures the
-distance between two people and how the units of each column change that distance.
+distance between two rows and how the units of each column change that distance.
 
 ## Data
 
-The data come from the same file as the Olympic heights in session 3. We will use the 37,643
-athletes who competed in the Summer Games from 2000 to 2016 and whose height, weight and age were
-all recorded. Each athlete appears once, with their sex, their sport, their height in centimetres,
-their weight in kilograms, and their age in years at the Games. Between them, they competed in 36
-sports.
+The data are 342 penguins measured between 2007 and 2009 by Kristen Gorman and the Palmer Station
+Long Term Ecological Research program, on three islands near Palmer Station, Antarctica. Each row
+is one penguin, with its bill length, bill depth and flipper length in millimetres and its body
+mass in grams. The file also records each penguin's species (Adelie, Chinstrap or Gentoo), which
+we will use only after clustering, to compare with the clusters.
 
 ## Question
 
-> **What kinds of Olympic athletes are there?**
+> **What groups do these penguins' measurements show?**
 
 There are no answer options. In class, we will introduce k-means clustering, and you will use it to
-group the athletes by height, weight and age and then describe each group: what its athletes are
-like, and which sports they come from.
+group the penguins by their measurements, describe each group, and compare the groups with the
+species.
 
 ## Working and submitting
 
@@ -38,19 +38,19 @@ class.
 k-means divides the rows into a number of groups, *k*, that you choose in advance. It starts with
 *k* centres, assigns each row to the nearest centre, moves each centre to the mean of the rows
 assigned to it, and repeats the last two steps until the assignments stop changing. Each group is
-then described by its centre, which is the average athlete in that group.
+then described by its centre, which is the average penguin in that group.
 
 "Nearest" means the ordinary straight-line distance, computed across all the columns at once. For
-two athletes, it is found by squaring the differences in height, weight and age, adding the three,
-and taking the square root. A difference of five counts the same in every
-column, whether it is five centimetres, five kilograms or five years, so a column whose values vary
-more contributes more to the distance. In these athletes, the standard deviation of height is about
-11 cm, of weight about 16 kg, and of age about 5 years.
+two penguins, it is found by squaring the difference in each measurement, adding the squares, and
+taking the square root. A difference of ten counts the same in every column, whether it is ten
+millimetres or ten grams, so a column whose values vary more contributes more to the distance. In
+these penguins, the standard deviation of body mass is about 800 grams, and those of the three
+measurements in millimetres are between 2 and 14.
 
 Standardizing, which the session 17 pre-read reviewed, rescales each column so that its values are
 measured in standard deviations from its mean. After standardizing, a difference of one counts the
 same in every column because it means one standard deviation in each. Whether to standardize is a
-decision about which differences between athletes should count, and in class you will try it both
+decision about which differences between penguins should count, and in class you will try it both
 ways.
 
 ## Reading
@@ -62,8 +62,9 @@ to download from statlearning.com: section 12.4.1, *K-Means Clustering*, and sec
 
 ## Optional preparation
 
-If you have time before Monday, please think about which sports you would expect to have similar
-athletes, and which of height, weight and age you would expect to separate them.
+If you have time before Monday, please think about which measurements you would expect to separate
+the species, and what you would expect k-means to do with body mass measured in grams.
 
-*Data: Griffin, R. (2018). 120 years of Olympic history: athletes and results. Kaggle, compiled
-from sports-reference.com, CC0.*
+*Data: Gorman, K. B., Williams, T. D. and Fraser, W. R. (2014). Ecological sexual dimorphism and
+environmental variability within a community of Antarctic penguins (genus Pygoscelis). PLoS ONE
+9(3): e90081. Distributed as the palmerpenguins package by Horst, Hill and Gorman (2020), CC0.*
