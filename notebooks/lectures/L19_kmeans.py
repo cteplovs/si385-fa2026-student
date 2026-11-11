@@ -100,7 +100,7 @@ def data_helper(pd):
     return (course_csv,)
 
 
-@app.cell(hide_code=True)
+@app.cell
 def palette():
     # Okabe and Ito's colours, which stay distinct for the common forms of colour blindness.
     CLUSTER_COLOURS = ["#0072B2", "#E69F00", "#009E73", "#CC79A7", "#56B4E9", "#D55E00"]
@@ -203,7 +203,6 @@ def steps_step_control(mo, steps_history):
 def steps_plot(
     CLUSTER_COLOURS,
     mo,
-    np,
     plt,
     steps_history,
     steps_objective,
@@ -331,6 +330,7 @@ def load_penguins(course_csv):
                 .reset_index(drop=True))
     MEASUREMENTS = ["bill_length_mm", "bill_depth_mm", "flipper_length_mm", "body_mass_g"]
     penguins[MEASUREMENTS].agg(["mean", "std"]).round(1)
+    #penguins[MEASUREMENTS].describe().round(1)
     return MEASUREMENTS, penguins
 
 
@@ -444,7 +444,14 @@ def step2_control(mo):
 
 
 @app.cell
-def step2_fit(KMeans, MEASUREMENTS, StandardScaler, answer_k, answer_version, penguins):
+def step2_fit(
+    KMeans,
+    MEASUREMENTS,
+    StandardScaler,
+    answer_k,
+    answer_version,
+    penguins,
+):
     # Step 2: we fit k-means to your version from ten starts and keep the best. Start with K = 3,
     # then try 2 and 4.
     _columns = MEASUREMENTS if answer_version.value.startswith("All") else MEASUREMENTS[:3]
@@ -462,7 +469,14 @@ def step2_fit(KMeans, MEASUREMENTS, StandardScaler, answer_k, answer_version, pe
 
 
 @app.cell(hide_code=True)
-def step2_plot(CLUSTER_COLOURS, answer_k, answer_version, mo, my_penguins, plt):
+def step2_plot(
+    CLUSTER_COLOURS,
+    answer_k,
+    answer_version,
+    mo,
+    my_penguins,
+    plt,
+):
     _fig, _ax = plt.subplots(figsize=(6, 4.5))
     for _c in range(1, answer_k.value + 1):
         _rows = my_penguins[my_penguins["cluster"] == _c]
@@ -566,6 +580,21 @@ def step4_answer_limitation(mo):
     mo.md(r"""
     *Replace this line with your answer.*
     """)
+    return
+
+
+@app.cell
+def _(KMeans, MEASUREMENTS, penguins):
+    _model = KMeans(n_clusters=3, random_state=0)
+    _model.fit(penguins[MEASUREMENTS])
+    _model.predict(penguins[MEASUREMENTS])
+    return
+
+
+@app.cell
+def _(KMeans, MEASUREMENTS, penguins):
+    _labels = KMeans(n_clusters=5, random_state=0).fit_predict(penguins[MEASUREMENTS])
+    print(_labels)
     return
 
 
