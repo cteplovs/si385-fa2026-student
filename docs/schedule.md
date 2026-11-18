@@ -77,16 +77,16 @@ no RAT; the whole period is one extended team problem.
 | 19 | Mon Nov 09 | Clustering I: k-means, distance, and scaling | ~~Grus ch. 19; Géron, PyTorch edition, ch. 8~~ James et al., *An Introduction to Statistical Learning with Applications in Python*, sections 12.4.1 and 12.4.3. *Changed 2026-11-04.* | RAT 15 · AE 17 | --- |
 | 20 | Wed Nov 11 | Clustering II: hierarchical and density methods. How many clusters, and does this clustering mean anything? | Géron, PyTorch edition, ch. 8, cont. | RAT 16 · AE 18 | --- |
 | 21 | Mon Nov 16 | Classification I: logistic regression, trees, forests, and choosing a model class | ~~Grus ch. 13; Géron, PyTorch edition, ch. 3~~ James et al., *An Introduction to Statistical Learning with Applications in Python*, sections 4.3, 8.1, 8.2.1 and 8.2.2. *Changed 2026-11-10.* | RAT 17 · AE 19 | --- |
-| 22 | Wed Nov 18 | Classification II: evaluation beyond accuracy --- imbalance, thresholds, and the cost of an error | Géron, PyTorch edition, ch. 3, cont. | RAT 18 · AE 20 | **DoU 3 assigned** |
-| 23 | Mon Nov 23 | **Synthesis** --- model bake-off with a defended recommendation | None | AE 21 | --- |
+| 22 | Wed Nov 18 | Classification II: evaluation beyond accuracy --- imbalance, thresholds, and the cost of an error | ~~Géron, PyTorch edition, ch. 3, cont.~~ Géron, PyTorch edition, ch. 3, from *Training a Binary Classifier* to the end of *Performance Measures*. *Changed 2026-11-16.* | RAT 18 · AE 20 | ~~**DoU 3 assigned**~~ *Moved to session 23 on 2026-11-17.* |
+| 23 | Mon Nov 23 | **Synthesis** --- model bake-off with a defended recommendation | None | AE 21 | **DoU 3 assigned**. *Changed 2026-11-17.* |
 | --- | Wed Nov 25 | *No class --- Thanksgiving recess* | | | |
 
 ## Module 4 --- Text and generative models
 
 | # | Date | Topic | Reading (before class) | RAP | Due |
 |---|---|---|---|---|---|
-| 24 | Mon Nov 30 | Text as data beyond SI 345: spaCy pipelines, word embeddings, semantic scales | spaCy 101 | RAT 19 · AE 22 | **DoU 3 due** |
-| 25 | Wed Dec 02 | Large language models as analytical instruments: where they help, where they fabricate, and how to verify | Bruce et al. ch. 10–11 | RAT 20 · AE 23 | --- |
+| 24 | Mon Nov 30 | Text as data beyond SI 345: spaCy pipelines, word embeddings, semantic scales | spaCy 101 | RAT 19 · AE 22 | ~~**DoU 3 due**~~ *Moved to session 25 on 2026-11-17.* |
+| 25 | Wed Dec 02 | Large language models as analytical instruments: where they help, where they fabricate, and how to verify | Bruce et al. ch. 10–11 | RAT 20 · AE 23 | **DoU 3 due** (Wed Dec 2, 23:59). *Changed 2026-11-17.* |
 
 ## Closing sessions
 

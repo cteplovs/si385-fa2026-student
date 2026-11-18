@@ -61,11 +61,12 @@ final round counts.
 | **Wed Oct 21** | Peer evaluation 1 (midterm, formative) |
 | **Mon Oct 26** | Project proposal due --- required, not graded |
 | **Mon Nov 2** | DoU 2 due |
-| **Mon Nov 30** | DoU 3 due |
+| ~~**Mon Nov 30**~~ **Wed Dec 2** | DoU 3 due. *Changed 2026-11-17.* |
 | **Wed Dec 2** | Peer evaluation 2 --- this is the one that counts |
 | **Fri Dec 11** | Final report due |
 
-DoUs are due at 23:59 and are assigned twelve days ahead.
+DoUs are due at 23:59 and are assigned twelve days ahead. DoU 3 will be assigned on Mon Nov 23,
+nine days ahead. *Changed 2026-11-17.*
 
 ---
 
